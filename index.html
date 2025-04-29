@@ -6,16 +6,21 @@
   <link rel="stylesheet" href="/dataTables.dataTables.min.css" />
 </head>
 <body>
-  <h1>Tabla con jQuery y DataTables</h1>
+  <h1>Tabla con jQuery y DataTables - demo2</h1>
   <table id="tabla-ejemplo" class="display">
     <thead>
-      <tr><th>Nombre</th><th>Edad</th></tr>
+      <tr><th>Código</th><th>Nombre</th></tr>
     </thead>
     <tbody>
-      <tr><td>Ana</td><td>21</td></tr>
-      <tr><td>Luis</td><td>22</td></tr>
+      <!-- Filas dinámicas -->
     </tbody>
   </table>
+
+  <hr>
+
+  <button type="submit" id="obtenerInformacion">Obtener información</button>
+  <button type="submit" id="limpiarInformacion">Limpiar información</button>
+
   <script type="module" src="src/main.js"></script>
 </body>
 </html>
